@@ -1,0 +1,20 @@
+body {
+    background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMZvluu_QiQsUE2ssS9UObMQP3T3lmvdV7hJjy-PJF8Z2PR8GEhg") center center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 100% 0;
+}
+.padre {
+    position: relative;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 15px;
+    
+}
+.hijo{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
