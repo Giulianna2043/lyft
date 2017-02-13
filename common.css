@@ -10,4 +10,7 @@
 .check input-checkbox {
     background-color: blue;
 }
-
+.container .icon{
+   position: relative;
+    right: 500px;
+}

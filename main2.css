@@ -8,3 +8,7 @@
     bottom: -28px;
     left: 10px;
 }
+
+.container input{
+    padding: 0 30px;
+}
