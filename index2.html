@@ -5,24 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <title>Lyft</title>
+    <link rel="stylesheet" href="iconos/style.css">
+    <title>Lyft2</title>
     <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="main2.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6">
-                <h2 class="text-center"><b>Sign up </b></h2> 
-                <p class="text-center">Join new for free ride credit</p> <hr>
-                <div>
-                    <div class="input-group">
-                        <span class="input-group-addon" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Firstname              Lastname" aria-describedby="basic-addon1">
-                    </div><br>
-                    <div class="input-group">
-                        <span class="input-group-addon" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
-                    </div>
+   <header>
+       <div class="container">
+           <div class="row">
+                <div class="col-lg-12 col-xs-12  col-sm-12 col-md-12">
+                    <h2 class="text-center"><b>Sign up </b></h2> 
+                    <p class="text-center">Join new for free ride credit</p> <hr>
+                </div>
+           </div>
+       </div>
+   </header>
+   <section>
+       <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                   <!--apellido-->
+                      <div class="name-container input-box">
+                        <label for="name" class="sr-only">Nombre</label> <span class="icon-user icono"></span>
+                        <input type="text" id="name" class="form-control"
+                        placeholder="       First name     Last name" autofocus="" maxlength="30" onkeydown="validacionNomb(event)">
+                      </div><br>
+                        <div class="email-container input-box">
+                        <label for="inputEmail" class="sr-only">
+                          Correo Electrónico
+                        </label><span class="icon-mail2 icono"></span>
+                        <input  type="email" id="input-email" class="form-control" placeholder="          Email" maxlength="50" onkeyup="validacionEmail(event)">
+                      </div>
                     <br>
                     <div class="text-center">
                         <p class="check"><input type="checkbox" name="vehicle" value="" checked> I agree to Lyft's   <span class="blue">Terms of  Service</span></p>
@@ -30,10 +44,10 @@
                     <div class="text-center">
                         <button class="btn order-2-md bg-pink text-white order-1" type="submit" data-reactid="102">Next</button> 
                     </div> 
-                    
                 </div>
-                
             </div>   
-        </div>
-    </div> 
+        </div> 
+   </section>
+   <script src="main.js"></script> 
 </body>
+</html>

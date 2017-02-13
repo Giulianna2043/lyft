@@ -1,6 +1,8 @@
 .bg-pink {
     background-color: #FF00BF;
     padding: 5% 45%;
+    color: white;
+    font-size: 25px;
 }
 .check .blue{
     color:blue;
