@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="paises">
     <link rel="stylesheet" href="iconos/style.css">
     <title>Lyft1</title>
-    <link rel="stylesheet" href="common.css">
-    <a href="index1"></a>
+    <link rel="stylesheet" href="css/common.css">
 </head>
-<body onload="init">
+<body onload="init()">
    <header>
        <div class="container">
            <div class="row">
@@ -23,16 +21,15 @@
            </div>
        </div>
    </header>
-   
-   <section class="select-paises">
+    <section class="select-paises">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-xs-12  col-sm-12 col-md-12">
                     <div class="input-group">
                         <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle boton-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="paises.html"><img src="paises/pe.png" alt=""><span class="caret"></span></a></button>	
+                        <button type="button" class="btn btn-default dropdown-toggle boton-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false id= "><a href="paises.html"><img src="paises/pe.png" alt=""><span class="caret"></span></a></button>	
                         </div><!-- /btn-group -->
-                        <input id="codigopais" type="text" placeholder="+51 9827726628" class="form-control" aria-label="...">
+                        <input id="codigopais" type="text" placeholder="+51 9827726628" class="form-control" aria-label="..."  onKeyPress="return soloNumeros(event)">
                   </div><!-- /input-group -->
               <p class="text-center">We´ll send a text to verify your phone</p>
                 </div><!-- --> 
@@ -40,16 +37,18 @@
         </div>
     </section>
    <section>
-      <div class="container">
-        <div class="row">
-            
-                <div class="text-center">
-                   <br> <a href="paises.html" class="btn order-2-md bg-pink text-white order-1" type="submit" data-reactid="102">Next</a> 
-                </div> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12  col-sm-12 col-md-12">
+                    <div class="text-center">
+                       <br> <a href="paises.html" class="btn order-2-md bg-pink text-white order-1" type="submit" data-reactid="102">Next</a> 
+                    </div> 
+                </div>
             </div>
-        </div>
-    </div>     
+        </div>     
    </section> 
-   <script src="main.js"></script>   
+   <script src="js/signup.js"></script> 
+    <script src="js/main.js"></script> 
+     
 </body>
 </html>
