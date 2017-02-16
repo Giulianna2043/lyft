@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/paises.css">
 </head>
-<body onload="init">
+<body onload="init()">
    <header>
        <div class="container">
            <div class="row">
@@ -29,9 +29,10 @@
                    <p>Common Countries</p>     
                 </div>
                 <div class="col-lg-8 col-xs-8  col-sm-8 col-md-8 lista-paises">
-                    <ul class="lista-paises">
+                    <ul id="lista-paises">
+                       
                         <!---<li><img src="iconos/paises/ar.png" alt=""> <a href="signup.html">Argentina</a></li>
-                        <li><img src="iconos/paises/br.png" alt=""> <a href="signup.html">Brasil</a></li>
+                        <a href="signup.html"> <li><img src="" alt=""></li></a>
                         <li></li>
                         <li><img src="iconos/paises/co.png" alt=""> <a href="signup.html">Colombia</a></li>
                         <li><img src="iconos/paises/ec.png" alt=""> <a href="signup.html">Ecuador</a></li>
@@ -49,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-xs-4  col-sm-4 col-md-4">
-                   <ul>
+                   <ul >
                        <!---<li>A</li>
                        <li>B</li>
                        <li>C</li>
@@ -76,7 +77,8 @@
         </div>
 
 </section>
+   <script src="js/signup.js"></script>
     <script src="js/paises.js"></script>
-   <script src="js/main.js"></script>   
+      
 </body>
 </html>
