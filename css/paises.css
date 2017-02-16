@@ -1,0 +1,10 @@
+ .common p
+{
+    background: #bab6b6;
+    padding: 3% 5%;
+}
+.lista-paises li
+{
+    list-style: none;
+    
+}
